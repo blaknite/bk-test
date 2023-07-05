@@ -4,3 +4,12 @@ services:
     build:
       context: .
     command: sh
+    environment:
+      BUILDKITE_ANALYTICS_TOKEN:
+      BUILDKITE_BUILD_ID:
+      BUILDKITE_BUILD_NUMBER:
+      BUILDKITE_JOB_ID:
+      BUILDKITE_BRANCH:
+      BUILDKITE_COMMIT:
+      BUILDKITE_MESSAGE:
+      BUILDKITE_BUILD_URL:
